@@ -4,26 +4,26 @@ import { Button } from "@/components/ui/button";
 const contactLinks = [
   {
     label: "Email",
-    value: "mohanrajmd821@gmail.com",
-    href: "mailto:mohanrajmd821@gmail.com",
+    value: "mohanrajmd621@gmail.com",
+    href: "mailto:mohanrajmd621@gmail.com",
     icon: Mail,
   },
   {
     label: "Phone",
-    value: "+91 123456789",
-    href: "tel:+91123456789",
+    value: "+91 8438634716",
+    href: "tel:+918438634716",
     icon: Phone,
   },
   {
     label: "GitHub",
-    value: "MIRAGE-FAHINR",
-    href: "https://github.com/MIRAGE-FAHINR",
+    value: "MIRAGE-FAFNIR",
+    href: "https://github.com/MIRAGE-FAFNIR",
     icon: Github,
   },
   {
     label: "LinkedIn",
-    value: "mohanraj-md",
-    href: "https://linkedin.com/in/mohanraj-md",
+    value: "mohanraj-a",
+    href: "https://www.linkedin.com/in/mohanraj-a-ba123b397/",
     icon: Linkedin,
   },
   {
