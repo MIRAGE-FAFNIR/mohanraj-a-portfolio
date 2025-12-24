@@ -1,13 +1,45 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navigation from "@/components/Navigation";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import EducationSection from "@/components/EducationSection";
+import SkillsSection from "@/components/SkillsSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import CertificationsSection from "@/components/CertificationsSection";
+import ExtracurricularSection from "@/components/ExtracurricularSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Mohanraj A | AI & Data Science Undergraduate</title>
+        <meta
+          name="description"
+          content="Portfolio of Mohanraj A, an Artificial Intelligence and Data Science undergraduate focused on ethical AI solutions and logical problem solving."
+        />
+        <meta
+          name="keywords"
+          content="Mohanraj A, AI, Data Science, Portfolio, Student, Machine Learning"
+        />
+        <link rel="canonical" href="https://mohanraj-portfolio.lovable.app" />
+      </Helmet>
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        <main>
+          <HeroSection />
+          <AboutSection />
+          <EducationSection />
+          <SkillsSection />
+          <ProjectsSection />
+          <CertificationsSection />
+          <ExtracurricularSection />
+          <ContactSection />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
